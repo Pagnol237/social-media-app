@@ -1,0 +1,21 @@
+@import "./navigation";
+@import"./leftpart";
+@import"./midelpart";
+@import"./rightpart";
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #eef0f4;
+}
+.body_main{
+    width: 100%;
+    height: calc(100vh - 50px);
+    display: flex;
+    padding: 0px 15px 0px 15px ;
+}
